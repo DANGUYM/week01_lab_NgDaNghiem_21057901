@@ -26,6 +26,14 @@ dependencies {
   implementation('org.hibernate:hibernate-core:6.4.5.Final')
   implementation('org.glassfish.jaxb:jaxb-runtime:4.0.5')
 
+
+  // https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc
+  implementation group: 'com.microsoft.sqlserver', name: 'mssql-jdbc', version: '12.8.1.jre11'
+
+  // https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client
+  implementation group: 'org.mariadb.jdbc', name: 'mariadb-java-client', version: '3.4.1'
+
+
   testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
   testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
 }
