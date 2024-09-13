@@ -1,9 +1,6 @@
 package vn.edu.iuh.fit.week01_lab_ngdanghiem_21057901.entities;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import org.hibernate.annotations.ColumnDefault;
 
 @Entity
@@ -82,14 +79,6 @@ public class Account {
 
     public Account(String accountId, String fullName, String password, String email, String phone, Byte status) {
         this.accountId = accountId;
-        this.fullName = fullName;
-        this.password = password;
-        this.email = email;
-        this.phone = phone;
-        this.status = status;
-    }
-
-    public Account(String fullName, String password, String email, String phone, Byte status) {
         this.fullName = fullName;
         this.password = password;
         this.email = email;

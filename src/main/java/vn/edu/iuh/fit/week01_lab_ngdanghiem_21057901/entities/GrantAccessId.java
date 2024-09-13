@@ -53,9 +53,4 @@ public class GrantAccessId implements java.io.Serializable {
         this.accountId = accountId;
     }
 
-    public GrantAccessId(String roleId, Account account) {
-        this.roleId = roleId;
-        this.accountId = account.getAccountId();
-    }
-
 }

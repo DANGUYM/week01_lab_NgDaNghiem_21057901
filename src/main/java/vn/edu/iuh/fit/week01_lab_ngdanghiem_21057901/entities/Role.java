@@ -63,10 +63,4 @@ public class Role {
         this.status = status;
     }
 
-    public Role(String roleId, String roleName, Byte status) {
-        this.roleId = roleId;
-        this.roleName = roleName;
-        this.status = status;
-    }
-
 }

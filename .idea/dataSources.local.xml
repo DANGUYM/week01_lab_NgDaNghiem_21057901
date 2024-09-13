@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="IU-242.20224.300">
-    <data-source name="mydb@localhost" uuid="c81d6912-e19f-46b1-b718-3f374f825e43">
-      <database-info product="MySQL" version="11.5.2-MariaDB" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)" dbms="MARIADB" exact-version="11.5.2" exact-driver-version="8.2">
+    <data-source name="mydb@localhost" uuid="7bc1ce65-0c15-4389-ad49-c59f11c9ce98">
+      <database-info product="MariaDB" version="11.5.2-MariaDB" jdbc-version="4.2" driver-name="MariaDB Connector/J" driver-version="3.3.3" dbms="MARIADB" exact-version="11.5.2" exact-driver-version="3.3">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
       </database-info>

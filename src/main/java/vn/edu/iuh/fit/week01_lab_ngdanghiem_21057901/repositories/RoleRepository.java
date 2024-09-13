@@ -11,7 +11,7 @@ public class RoleRepository {
     private EntityManager em;
 
     public RoleRepository() {
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("mydb");
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("jpa-mariadb");
         em = emf.createEntityManager();
     }
 

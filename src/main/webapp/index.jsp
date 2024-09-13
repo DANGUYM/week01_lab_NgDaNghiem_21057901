@@ -15,12 +15,8 @@
   Email: <input type="text" name="email"/><br/>
   Password: <input type="password" name="password"/><br/>
   <input type="submit" value="Login"/>
+  <input type="reset" value="Reset"/>
 </form>
-<p style="color: red;">
-  <%= request.getParameter("error") != null ? request.getParameter("error") : "" %>
-</p>
-
-
 
 </body>
 </html>

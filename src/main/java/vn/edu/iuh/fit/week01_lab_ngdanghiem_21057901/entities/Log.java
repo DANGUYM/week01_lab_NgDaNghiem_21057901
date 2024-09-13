@@ -78,12 +78,4 @@ public class Log {
         this.notes = notes;
     }
 
-    public Log(Long id, String accountId, Instant loginTime, Instant logoutTime, String notes) {
-        this.id = id;
-        this.accountId = accountId;
-        this.loginTime = loginTime;
-        this.logoutTime = logoutTime;
-        this.notes = notes;
-    }
-
 }
